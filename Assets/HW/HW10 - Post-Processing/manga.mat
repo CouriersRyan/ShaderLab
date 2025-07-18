@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: manga
+  m_Shader: {fileID: 4800000, guid: d2d31bba7c47e9e41825be6cb789efff, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DitherPattern:
+        m_Texture: {fileID: 2800000, guid: 179556ed9d431e04bb3b11bc5c63d136, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScreenTone0:
+        m_Texture: {fileID: 2800000, guid: 179556ed9d431e04bb3b11bc5c63d136, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScreenTone1:
+        m_Texture: {fileID: 2800000, guid: 32ecd0af291164b4abcd82f869aefb3c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScreenTone2:
+        m_Texture: {fileID: 2800000, guid: 0ef04acabb9ff164f9c32719b067fba1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScreenTone3:
+        m_Texture: {fileID: 2800000, guid: 55c0ea272b7eff448971f88c9f4beee8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScreenTone4:
+        m_Texture: {fileID: 2800000, guid: 951ebf2bcf23a4e4e8c838b9389b368a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScreenTone5:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScreenTone6:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScreenTone7:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScreenTone8:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScreenTone9:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Threshold: -0.065
+    m_Colors:
+    - _Color0: {r: 1, g: 1, b: 1, a: 1}
+    - _Color1: {r: 1, g: 0.7014339, b: 0.9655149, a: 1}
+    - _Color2: {r: 0.36181122, g: 0.82356, b: 1, a: 1}
+    - _Color3: {r: 0.3953604, g: 0.21188748, b: 0.5566038, a: 1}
+    - _Color4: {r: 0.3347184, g: 0.3668116, b: 0.4528302, a: 1}
+    - _Color5: {r: 0.6132076, g: 0, b: 0, a: 1}
+    - _Color6: {r: 0.22615875, g: 0.5660378, b: 0.23745684, a: 1}
+    - _Color7: {r: 1, g: 1, b: 1, a: 1}
+    - _Color8: {r: 1, g: 1, b: 1, a: 1}
+    - _Color9: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

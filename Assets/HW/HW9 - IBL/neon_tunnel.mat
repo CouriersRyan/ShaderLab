@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: neon_tunnel
+  m_Shader: {fileID: 4800000, guid: 3701f7029d1ac0a43b0d5f264eff1813, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _TexCube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _contrast: 1.5
+    - _offset: 0
+    - _timeElapsed: 24.119528
+    m_Colors:
+    - _colorHigh: {r: 0.1981132, g: 0.023085777, b: 0.023085777, a: 1}
+    - _colorHorizon: {r: 1, g: 1, b: 1, a: 1}
+    - _colorLow: {r: 0.16981131, g: 0.029399771, b: 0.047173366, a: 1}
+  m_BuildTextureStacks: []

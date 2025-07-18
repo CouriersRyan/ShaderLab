@@ -1,4 +1,4 @@
-﻿Shader "examples/week 1/texture color blending"
+﻿ Shader "examples/week 1/texture color blending"
 {
     Properties
     {
@@ -75,7 +75,7 @@
 
                 // color = base <= 0.5 ? 2 * base * blend : 1 - 2 * (1 - base) * (1 - blend); // overlay - non-commutative
                 // color = blend <= 0.5 ? base * (blend + 0.5) : 1 - (1 - base) * (1 - (blend - 0.5)); // soft light - non-commutative
-                // color = blend <= 0.5 ? base * (2 * blend) : 1 - (1 - base) * (1 - 2 * (blend - 0.5)); // hard light - non-commutative
+                // color = blend <= 0.5 ? base * (2 * blend) : 1 - (1 - base) * (1 - 2 * (blend - 0.5)); // hard light - non-commutative 
                 // color = blend <= 0.5 ? base * (1 - 2 * blend) : 1 - (1 - base) / (2 * (blend - 0.5)); // vivid light - non-commutative
                 // color = blend <= 0.5 ? base + 2 * blend - 1 : base + 2 * (blend - 0.5); // linear light - non-commutative
                 // color = blend <= 0.5 ? min(base, 2 * blend) : max(base, 2 * (blend - 0.5)); // pin light - non-commutative

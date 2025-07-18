@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unlit_fun sky box
+  m_Shader: {fileID: 4800000, guid: ac66ad5b4723dd743ad55a69b95d676d, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _TexCube:
+        m_Texture: {fileID: 8900000, guid: 67fc12ac8848a42579f4c8216a65af7a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _contrast: 1.95
+    - _offset: 0.214
+    m_Colors:
+    - _colorHigh: {r: 0.6415094, g: 0.5437157, b: 0.47418436, a: 1}
+    - _colorHorizon: {r: 0.8396226, g: 0.038647886, b: 0, a: 1}
+    - _colorLow: {r: 0.21842256, g: 0.20773226, b: 0.3773585, a: 1}
+  m_BuildTextureStacks: []

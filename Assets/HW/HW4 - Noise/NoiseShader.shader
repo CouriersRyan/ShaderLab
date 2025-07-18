@@ -130,13 +130,13 @@ Shader "Unlit/NoiseShader"
                 return shaper0 - shaper1;
             }
             
-            struct appdata
+            struct MeshData
             {
                 float4 vertex : POSITION;
                 float2 uv : TEXCOORD0;
             };
 
-            struct v2f
+            struct Interpolators
             {
                 float2 uv : TEXCOORD0;
                 UNITY_FOG_COORDS(1)
@@ -146,16 +146,16 @@ Shader "Unlit/NoiseShader"
             sampler2D _MainTex;
             float4 _MainTex_ST;
 
-            v2f vert (appdata v)
+            Interpolators vert (MeshData v)
             {
-                v2f o;
+                Interpolators o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                 UNITY_TRANSFER_FOG(o,o.vertex);
                 return o;
             }
 
-            fixed4 frag (v2f i) : SV_Target
+            fixed4 frag (Interpolators i) : SV_Target
             {
                 float2 uv = (i.uv * 2 - 1);
                 float time = _Time.y * 0.1;

@@ -23,6 +23,6 @@ Material:
     m_Ints: []
     m_Floats:
     - _intensity: 0.17
-    - _scale: 33
+    - _scale: 19
     m_Colors: []
   m_BuildTextureStacks: []

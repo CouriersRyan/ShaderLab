@@ -18,13 +18,13 @@ Shader "Unlit/HW2-Shaping"
 
             #include "UnityCG.cginc"
 
-            struct appdata
+            struct MeshData
             {
                 float4 vertex : POSITION;
                 float2 uv : TEXCOORD0;
             };
 
-            struct v2f
+            struct Interpolators
             {
                 float2 uv : TEXCOORD0;
                 UNITY_FOG_COORDS(1)
@@ -34,9 +34,9 @@ Shader "Unlit/HW2-Shaping"
             sampler2D _MainTex;
             float4 _MainTex_ST;
 
-            v2f vert (appdata v)
+            Interpolators vert (MeshData v)
             {
-                v2f o;
+                Interpolators o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                 UNITY_TRANSFER_FOG(o,o.vertex);
@@ -66,7 +66,7 @@ Shader "Unlit/HW2-Shaping"
                 return float4(colorShape, mask);
             }
 
-            fixed4 frag (v2f i) : SV_Target
+            fixed4 frag (Interpolators i) : SV_Target
             {
                 float2 uv = i.uv * 2 - 1;
 

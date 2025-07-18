@@ -223,7 +223,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &783784342
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -715,6 +715,10 @@ PrefabInstance:
     - target: {fileID: 7611455197007465697, guid: 66019bffcb7c05449adcf91f601a82be, type: 3}
       propertyPath: m_Name
       value: HW2 Shapes
+      objectReference: {fileID: 0}
+    - target: {fileID: 7611455197007465697, guid: 66019bffcb7c05449adcf91f601a82be, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7611455197007465698, guid: 66019bffcb7c05449adcf91f601a82be, type: 3}
       propertyPath: m_RootOrder
